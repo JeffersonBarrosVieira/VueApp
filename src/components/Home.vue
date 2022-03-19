@@ -1,5 +1,6 @@
 <template>
-  <div class="hello">
+  <div id="home">
+    <img id="logo" alt="Vue logo" src="@/assets/icone-720x720.png">
     <h1>{{ msg }} {{ teste }}</h1>
   </div>
 </template>
@@ -29,5 +30,19 @@
   }
   a {
     color: #42b983;
+  }
+
+  #home {
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #logo {
+    width: 250px;
   }
 </style>
