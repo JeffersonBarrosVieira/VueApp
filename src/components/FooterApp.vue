@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-        <h1> Copyright (c) 2022 Jefferson Barros Vieira </h1>
+        <h1> Copyright © 2022 Jefferson Barros Vieira </h1>
     </div>
 </template>
 
