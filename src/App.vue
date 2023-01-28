@@ -11,6 +11,10 @@
   import HeaderApp from './components/HeaderApp.vue';
   import FooterApp from './components/FooterApp.vue';
 
+  // git status
+  // git add -A
+  // git commit -m "att"
+  // git push origin main
   export default {
     name: 'App',
     components: {
@@ -26,7 +30,7 @@
     margin: 0;
     padding: 0;
   }
-
+  
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;

@@ -14,10 +14,14 @@
   #header {
     width: 100%;
     height: 60px;
-    background-color: #363636;
+    padding: 12px 0 10px 0;
+    background-color: #591e1c;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
+    position: fixed;
+    top: 0;
+    z-index:1000;
   }
 </style>
